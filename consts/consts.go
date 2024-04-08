@@ -13,11 +13,11 @@ import (
 
 const (
 	// TODO: choose a human-readable part for your hyperchain
-	HRP = ""
+	HRP = "token"
 	// TODO: choose a name for your hyperchain
-	Name = ""
+	Name = "zeeToken"
 	// TODO: choose a token symbol
-	Symbol = ""
+	Symbol = "ZTK"
 )
 
 var ID ids.ID
@@ -31,6 +31,7 @@ func init() {
 	}
 	ID = vmID
 }
+
 
 // Instantiate registry here so it can be imported by any package. We set these
 // values in [controller/registry].
